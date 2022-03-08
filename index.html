@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <h1>Generace hesla</h1>
+
+
+
+    <form id="form">
+        <div class="mb-3">
+          <label for="znaky" class="form-label">Počet znaků:</label>
+          <input type="number" class="form-control" id="znaky" required>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="cisla">
+          <label class="form-check-label" for="cisla">Včetně čísel</label>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="velka">
+            <label class="form-check-label" for="exampleCheck1">Velká písmena</label>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="speacilani">
+            <label class="form-check-label" for="exampleCheck1">Speciální znaky</label>
+        </div>
+        <button type="submit" class="btn btn-primary" id="button">Submit</button>
+      </form>
+
+
+
+    <h4>Vaše heslo je:</h4>
+    <h2 id="heslo"></h2>
+</body>
+</html>
